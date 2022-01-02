@@ -1,4 +1,4 @@
-/*
+/**
 Calculator app using java
 @author Abert Coughlin 
 */
@@ -21,12 +21,12 @@ public class Calculator implements ActionListener {
 	// font to reuse for all buttons (font name, font type, pixel size)
 	Font myFont = new Font("Ink Free", Font.BOLD, 30);
 	
-	/* num1&2 hold the two numbers being manipluated with an operator 
+	/** num1&2 hold the two numbers being manipluated with an operator 
 	   result holds the number after the manipulation */
 	double num1 = 0, num2 = 0, result = 0; 
 	char operator; // hold the multiply/sub/add/div 
 	
-	/* Constructor
+	/** Constructor
 		@return N/A
 		@param 
 	*/
